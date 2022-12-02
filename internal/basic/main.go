@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
 
-	fmt.Println("Hello World")
+	fmt.Println("Hello Word")
+	log.Println("Printing just hello word")
 }
